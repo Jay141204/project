@@ -5,11 +5,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style2.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Dashboard</title>
 </head>
 <body>
-  
+      <nav class="navbar navbar-expand-lg bgLight">
+        <div class="container-fluid">
+          <a class="navbar-brand ml-5" href="#"><img src="./images/menu-bar.svg" alt="logo not found" ></a>
+          <a class="nav-link active" aria-current="page" href="#"><img src="./images/header-logo.svg" alt="logo not found"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse element" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-flex flex-row justify-content-around">
+              <form class="d-flex size1" role="search">
+                <input class="form-control me-2" type="search" placeholder="&#8981; Search" aria-label="Search"/>
+              </form>
+
+              <li class="nav-item size2">
+                <a class="nav-link " href="#"><img src="./images/notification-icon.svg" alt="logo not found"></a>
+              </li>
+              <li class="nav-item size3">
+                <a class="nav-link" href="#"><img src="./images/profile.png" alt="logo not found"></a>
+              </li>
+              <li class="nav-item dropdown size4">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="container-fluid">
+        <div class="row">
+            <div class="col-2">
+              <div><a href="#" class="textDN">  <img src="./images/dashboard-default.svg" alt="logo not found" class="img">   Dashboard</a></div>
+              <div><a href="#" class="textDN">  <img src="./images/graph-default.svg" alt="logo not found" class="img">   Analysis</a></div>
+              <div><a href="#" class="textDN">  <img src="./images/inbox-default.svg" alt="logo not found" class="img">   Inbox</a></div>
+              <div><a href="#" class="textDN">  <img src="./images/clock-default.svg" alt="logo not found" class="img">   History</a></div>
+              <div><a href="#" class="textDN">  <img src="./images/user-default.svg" alt="logo not found" class="img">   Users</a></div>
+              <div><a href="#" class="textDN">  <img src="./images/maintenance-default.svg" alt="logo not found" class="img">   Maintenance</a></div>
+              <div><a href="#" class="textDN">  <img src="./images/setting-default.svg" alt="logo not found" class="img">   Setting</a></div>
+            </div>
+
+            <div class="col-10">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                      <p class="head">Dashboard</p>
+                  </div>
+                </div>
+                <div class="d-flex flex-row">
+                  <div class="boxes"><img src="./images/star.svg" alt="logo not found" class="img1"> <span>23,456</span><br>&nbsp; &nbsp;&nbsp; New Products</div>
+                  <div class="boxes"><img src="./images/new-product.svg" alt="logo not found" class="img1"> <span>2345</span><br>&nbsp; &nbsp; &nbsp;  New Products</div>
+                  <div class="boxes"><img src="./images/total-product.svg" alt="logo not found" class="img1"> <span>32,456</span><br>&nbsp; &nbsp; &nbsp; Total Products</div>
+                  <div class="boxes"><img src="./images/dollar-filled.svg" alt="logo not found" class="img1"> <span>5678</span><br>&nbsp; &nbsp; &nbsp; Today's Sales</div>
+                  <div class="boxes"><img src="./images/money-bag.svg" alt="logo not found" class="img1"> <span>33,5342</span><br>Total Sales</div>
+              </div>
+              </div>
+              </div>
+            </div>
+        </div>
+      </div>
 </body>
 </html>
