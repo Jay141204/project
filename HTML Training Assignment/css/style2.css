@@ -1,11 +1,91 @@
-#db1{
-    display: flex;
-    background-color: steelblue;
-    width: 1560px;
-    height: 80px;
-    padding: 20px;
+.bgLight {
+    background: #FAFAFA 0% 0% no-repeat padding-box;
+    opacity: 1;
 }
 
-#input1{
+.WHimg {
+    width: 18px;
+    height: 12px;
+}
 
+.size1 {
+    width: 60vw;
+    height: 40px;
+    margin-top: 8px;
+    margin-left: 9vw;
+}
+
+.size2 {
+    margin-left: 4vw;
+    margin-top: 9px;
+}
+
+
+.size3 {
+    margin-left: 2vw;
+}
+
+.size4 {
+    margin-top: 8px;
+}
+
+
+@media screen and (max-width:992px) {
+    .element {
+        margin-top: 15px;
+    }
+
+    .size1 {
+        width: 40vw;
+        margin-left: 1vw;
+        margin-right: 0px;
+    }
+
+    .size2 {
+        margin-left: 1vw;
+    }
+
+    .size3 {
+        margin-left: 1vw;
+    }
+
+    .size4 {
+        margin-right: 0.5vw;
+    }
+
+}
+
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.textDN {
+    text-decoration: none;
+    text-align: left;
+    font: normal normal normal 16px/21px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+
+.head {
+    text-align: left;
+    font: normal normal 600 30px/39px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.img1{
+    width: 33px;
+    height: 33px;
+}
+
+.boxes{
+    width: 15vw;
+    height: 116px;
+    text-align: center;
 }
