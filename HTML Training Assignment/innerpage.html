@@ -3,9 +3,146 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style3.css">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/custom.js"></script>
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <title>Analysis</title>
 </head>
 <body>
-    
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bgLight">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-5" href="#" id="sidebar-toggle"><img src="./images/menu-bar.svg"
+          alt="logo not found"></a>
+      <a class="nav-link active" aria-current="page" href="#"><img src="./images/header-logo.svg"
+          alt="logo not found"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse element" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-flex flex-row justify-content-around">
+          <form class="d-flex size1" role="search">
+            <input class="form-control me-2" type="search" placeholder="&#8981; Search" aria-label="Search" />
+          </form>
+
+          <li class="nav-item size2">
+            <a class="nav-link " href="#"><img src="./images/notification-icon.svg" alt="logo not found"></a>
+          </li>
+          <li class="nav-item size3">
+            <a class="nav-link" href="#"><img src="./images/profile.png" alt="logo not found"></a>
+          </li>
+          <li class="nav-item dropdown size4">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Sidebar -->
+
+<div class="container-fluid">
+    <div class="row">
+
+        <!-- Sidebar -->
+      <div class="col-2 bgColor d-none d-lg-block p-3" >
+        <a href="file:///C:/Users/pce62/Downloads/Project/HTML%20Training%20Assignment/dashboard.html" class="text-decoration-none text-reset">
+            <div class="d-flex align-items-center pm">
+                <img src="./images/dashboard-default.svg" alt="logo not found" class="img m-1">
+                <span>Dashboard</span>
+            </div>
+        </a>
+        
+        <div class="d-flex align-items-center pm lowRed">
+          <img src="./images/graph-active.svg" alt="logo not found" class="img m-1">
+          <span>Analysis</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/dashboard-default.svg" alt="logo not found" class="img m-1">
+          <span>Inbox</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/clock-default.svg" alt="logo not found" class="img m-1">
+          <span>History</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/user-default.svg" alt="logo not found" class="img m-1">
+          <span>Users</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/maintenance-default.svg" alt="logo not found" class="img m-1">
+          <span>Maintenance</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/setting-default.svg" alt="logo not found" class="img m-1">
+          <span>Setting</span>
+        </div>
+      </div>
+
+
+      <div class="col-10">
+        <div class="container-fluid">
+            <div class="row fontStyle1 p-3">
+                Analysis
+            </div>
+            <div class="row">
+                <div class="fontStyle2 p-3">
+                    One Column
+                </div>
+                <div class="mb-3">
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Name">
+                </div>
+                <div class="mb-3">
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Multiple line"></textarea>
+                </div>
+                <div class="mb-3">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Dropdown</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="fontStyle2 p-3 mt-2">
+                    Two Column
+                </div>
+                <div class="containe-fluid">
+                    <div class="row">
+                        <div class="col-6 mb-3">
+                            <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Name">
+                            <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Password">
+                        </div>
+                        <div class="col-6 mb-3">
+                            <input type="email" class="form-control mb-3" id="exampleFormControlInput1" placeholder="Name">
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Dropdown</option>
+                                <option value="1">One</option>
+                                <option value="2">Two</option>
+                                <option value="3">Three</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+
+
 </body>
 </html>
