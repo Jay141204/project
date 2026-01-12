@@ -1,0 +1,268 @@
+/* Navbar */
+
+.bgLight {
+    background: #FAFAFA;
+    opacity: 1;
+}
+
+.WHimg {
+    width: 18px;
+    height: 12px;
+}
+
+.bgWhite {
+    background: white;
+}
+
+
+
+
+
+
+.navbar-nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+
+.size1 {
+    flex: 1 1 auto;
+    min-width: 120px;
+    margin-left: 4vw;
+}
+
+.size2 {
+    flex: 0 0 auto;
+    width: 40px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+@media screen and (max-width:992px) {
+    .size1 {
+        margin-left: 0rem;
+    }
+
+    .size2 {
+        margin-left: 5px;
+        margin-right: 8px;
+    }
+}
+
+
+/* dasboard */
+
+
+/* Sidebar */
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.pm {
+    margin: 10px;
+    padding: 10px;
+}
+
+
+.lowRed {
+    background: #FFF3F4 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    opacity: 1;
+}
+
+
+/* Actual Form */
+
+.fontStyle1 {
+    font-weight: 500;
+    font-family: Roboto;
+    font-size: 30px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+
+.fontStyle2 {
+    font-weight: 300;
+    font-family: Roboto;
+    font-size: 22px;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+
+
+/* floating input box */
+
+.input-container {
+    position: relative;
+
+}
+
+.input-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+}
+
+.input-container label {
+    position: absolute;
+    pointer-events: none;
+    left: 10px;
+    top: 10px;
+    color: #999;
+
+    transition: 0.2s ease all;
+    background-color: white;
+    padding: 0 5px;
+}
+
+
+.input-container input:focus~label,
+.input-container input:not(:placeholder-shown)~label {
+    top: -10px;
+    left: 8px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+
+.input-container textarea:focus~label,
+.input-container textarea:not(:placeholder-shown)~label {
+    top: -10px;
+    left: 8px;
+    font-size: 12px;
+    color: #007bff;
+}
+
+
+.input-container input:focus {
+    border-color: #007bff;
+}
+
+.input-container textarea:focus {
+    border-color: #007bff;
+}
+
+
+
+
+
+.fontStyle3 {
+    font: normal normal medium 18px/24px Roboto;
+    letter-spacing: 0px;
+    color: #3E3E3E;
+    opacity: 1;
+}
+
+
+.custom-color-radio .form-check-input:checked {
+    background-color: #C8242F;
+    border-color: #ff0000;
+}
+
+
+.custom-color-radio .form-check-input {
+    border-color: #000000;
+}
+
+
+
+
+
+
+
+.custom-tabs .nav-link {
+    color: black;
+}
+
+.custom-tabs .nav-link.active {
+    color: #C8242F;
+
+
+    .custom-tabs .nav-link:hover {
+        color: #C8242F;
+    }
+
+
+
+
+    .custom-upload-btn {
+        display: inline-flex;
+        align-items: center;
+        padding: 0.5rem 1rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: 50rem;
+        border: 1px solid #C8242F;
+        color: #C8242F;
+        background-color: #fff;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .custom-upload-btn:hover {
+        background-color: #C8242F;
+        color: #fff;
+    }
+
+
+    .text-muted.small {
+        color: #adb5bd;
+        font-size: 0.875em;
+    }
+
+
+    @media screen and (max-width: 767px) {
+        .bgColor {
+            width: 100%;
+        }
+    }
+
+
+    @media screen and (min-width: 768px) {
+        #collapseExample {
+            display: block;
+        }
+
+        #sidebar-toggle {
+            pointer-events: none;
+            opacity: 0.5;
+        }
+    }
+
+
+    @media screen and (max-width: 767px) {
+        #sidebar-toggle {
+            pointer-events: auto;
+            opacity: 1;
+        }
+    }
+
+}
+
+.red{
+    color: #C8242F;
+}

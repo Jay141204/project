@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style2.css">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <script src="./js/bootstrap.bundle.min.js"></script>
+  <script src="./js/custom.js"></script>
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Dashboard</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <a class="navbar-brand ml-5" href="#collapseExample" data-bs-toggle="collapse" id="sidebar-toggle"
+        role="button"><img src="./images/menu-bar.svg" alt="logo not found" class="img-fluid"></a>
+      <a class="nav-link active" aria-current="page" href="#"><img src="./images/header-logo.svg" alt="logo not found"
+          class="img-fluid"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse element" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-sm-flex flex-row justify-content-around">
+          <form class="d-flex size1" role="search">
+            <input class="form-control me-2" name="search" type="search" placeholder="&#8981; Search"
+              aria-label="Search" />
+          </form>
+          <li class="nav-item size2">
+            <a class="nav-link img-fluid" href="#"><img src="./images/notification-icon.svg" alt="logo not found"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="./images/profile.png" alt="logo not found"></a>
+          </li>
+          <li class="nav-item p-3 text-nowrap">
+            John Doe
+          </li>
+          <li class="nav-itemp-3">
+            <img src="./images//downward-arrow.svg" alt="logo not found">
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Dashboard -->
+  <div class="container-fluid">
+    <div class="row">
+
+      <!-- Sidebar -->
+      <div class="col-lg-2 col-md-3 col-sm-12 bgColor collapse p-3 d-md-block" id="collapseExample">
+        <div class="d-flex align-items-center pm lowRed">
+          <img src="./images/dashboard-active.svg" alt="logo not found" class="img m-1">
+          <span class="red">Dashboard</span>
+        </div>
+        <a href="./innerpage.html" class="text-decoration-none text-reset">
+          <div class="d-flex align-items-center pm">
+            <img src="./images/graph-default.svg" alt="logo not found" class="img m-1">
+            <span>Analysis</span>
+          </div>
+        </a>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/dashboard-default.svg" alt="logo not found" class="img m-1">
+          <span>Inbox</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/clock-default.svg" alt="logo not found" class="img m-1">
+          <span>History</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/user-default.svg" alt="logo not found" class="img m-1">
+          <span>Users</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/maintenance-default.svg" alt="logo not found" class="img m-1">
+          <span>Maintenance</span>
+        </div>
+        <div class="d-flex align-items-center pm">
+          <img src="./images/setting-default.svg" alt="logo not found" class="img m-1">
+          <span>Setting</span>
+        </div>
+      </div>
+      <!-- Main content -->
+      <div class="col-lg-10 col-md-9 col-sm-12 px-5 py-3 bgLight">
+        <div class="container-fluid px-0">
+          <div class="fontStyle1 py-3">
+            Dashboard
+          </div>
+
+
+          <div class="row bgLight pb-3 g-4">
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl col-xxl">
+              <div class="bgWhite customPadding d-flex align-items-center justify-content-center gap-2">
+                <img src="./images/star.svg" alt="logo not found" class="img2">
+                <div>
+                  <div class="fontStyle2">
+                    23,456
+                  </div>
+                  <br>
+                  <div class="fontStyle3 text-nowrap">
+                    New Products
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl col-xxl">
+              <div class="bgWhite customPadding d-flex align-items-center justify-content-center gap-2">
+                <img src="./images/new-product.svg" alt="logo not found" class="img2">
+                <div>
+                  <div class="fontStyle2">
+                    2345
+                  </div>
+                  <br>
+                  <div class="fontStyle3 text-nowrap">
+                    Added Products
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl col-xxl">
+              <div class="bgWhite customPadding d-flex align-items-center justify-content-center gap-2">
+                <img src="./images/total-product.svg" alt="logo not found" class="img2">
+                <div>
+                  <div class="fontStyle2">
+                    32,456
+                  </div>
+                  <br>
+                  <div class="fontStyle3 text-nowrap">
+                    Total Products
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl col-xxl">
+              <div class="bgWhite customPadding d-flex align-items-center justify-content-center gap-2">
+                <img src="./images/dollar-filled.svg" alt="logo not found" class="img2">
+                <div>
+                  <div class="fontStyle2">
+                    5678
+                  </div>
+                  <br>
+                  <div class="fontStyle3 text-nowrap">
+                    Today's Sale
+                  </div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-3 col-xl col-xxl">
+              <div class="bgWhite customPadding d-flex align-items-center justify-content-center gap-2">
+                <img src="./images/money-bag.svg" alt="logo not found" class="img2">
+                <div>
+                  <div class="fontStyle2">
+                    33,5342
+                  </div>
+                  <br>
+                  <div class="fontStyle3 text-nowrap">
+                    Total Sale
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+          </div>
+
+          <div class="row g-4 mb-3">
+            <div class="col-lg-8">
+              <div class="bgWhite p-4 h-100">
+                <div class="d-flex justify-content-between align-items-center"><span class="sale">Sale</span> <span
+                    class="weekMonth">Weekly &nbsp; Monthly &nbsp; <span
+                      class="yearly text-decoration-underline link-offset-3">Yearly</span></span></div>
+                <img src="./images/data-graph.png" alt="logo not found" class="imgFluid pt-3">
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="bgWhite p-4 h-100 container-fluid">
+                <div class="sbc">
+                  Sales by country
+                </div>
+
+                <div class="row">
+                  <div class="col-12 col-sm-6 col-lg-12 pt-2">
+                    <img src="./images/pie-chart.svg" alt="logo not found" class="ps-5 img-fluid">
+                  </div>
+                  <div class="col-12 col-sm-6 col-lg-12 d-flex align-items-center">
+                    <div class="container-fluid p-0 pt-2">
+                      <div class="row py-1">
+                        <div class="col-12 col-sm-12 col-lg-12 col-xl-8 text-nowrap country">
+                          <div class="round r d-inline-block align-middle"></div>United States of America
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-12 col-xl-4 text-nowrap country">
+                          <div class="round g d-inline-block align-middle"></div>Canada
+                        </div>
+                      </div>
+                      <div class="row py-1">
+                        <div class="col-12 col-sm-12 col-lg-12 col-xl-8 text-nowrap country">
+                          <div class="round o d-inline-block align-middle"></div>Russia
+                        </div>
+                        <div class="col-12 col-sm-12 col-lg-12 col-xl-4 text-nowrap country">
+                          <div class="round y d-inline-block align-middle"></div>India
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+
+
+        </div>
+
+
+
+
+
+
+        <!-- middle-part -->
+
+
+        <!-- table -->
+
+        <div class="container-fluid p-3 mt-2 mb-3 bgWhite">
+          <div class="detail justify-content-between">
+            <span class="invoice">Invoices</span>
+            <span class="view me-3">view all</span>
+          </div>
+
+          <div class="row mt-5">
+            <div class="col-12">
+              <div class="table-responsive">
+                <table class="table">
+
+                  <thead>
+                    <tr>
+                      <th scope="col" class="tableHead">INVOICE</th>
+                      <th scope="col" class="tableHead">COMPANY NAME</th>
+                      <th scope="col" class="tableHead">EMAIL</th>
+                      <th scope="col" class="tableHead">DUE DATE</th>
+                      <th scope="col" class="tableHead">STATUS</th>
+                      <th scope="col" class="tableHead">AMOUNT</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="tableRow">651535</td>
+                      <td class="tableRow">Public Adjusting Firm</td>
+                      <td class="tableRow">georgia.young@example.com</td>
+                      <td class="tableRow">24 May, 2020</td>
+                      <td class="tableRow"><span id="textPaid">Paid</span></td>
+                      <td class="tableRow">$47,800</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">558612</td>
+                      <td class="tableRow">Other</td>
+                      <td class="tableRow">jessica.hanson@example.com</td>
+                      <td class="tableRow">24 May, 2020</td>
+                      <td class="tableRow"><span id="textPaid">Paid</span></td>
+                      <td class="tableRow">$98,000</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">558612</td>
+                      <td class="tableRow">Vendor</td>
+                      <td class="tableRow">alma.lawson@example.com</td>
+                      <td class="tableRow">8 Sep, 2020</td>
+                      <td class="tableRow"><span id="textPaid">Paid</span></td>
+                      <td class="tableRow">$20,900</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">558612</td>
+                      <td class="tableRow">Property Management Company</td>
+                      <td class="tableRow">kenzi.lawson@example.com</td>
+                      <td class="tableRow">22 Oct, 2020</td>
+                      <td class="tableRow"><span id="textPaid">Paid</span></td>
+                      <td class="tableRow">$10,570</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">651535</td>
+                      <td class="tableRow">Subcontractor Company</td>
+                      <td class="tableRow">jackson.graham@example.com</td>
+                      <td class="tableRow">1 Feb, 2020</td>
+                      <td class="tableRow"><span id="textFail">Failed</span></td>
+                      <td class="tableRow">$10,200</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">653518</td>
+                      <td class="tableRow">Mortgage Company</td>
+                      <td class="tableRow">felicia.reid@example.com</td>
+                      <td class="tableRow">22 Oct, 2020</td>
+                      <td class="tableRow"><span id="textPending">Pending</span></td>
+                      <td class="tableRow">$12,600</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">487441</td>
+                      <td class="tableRow">TPA</td>
+                      <td class="tableRow">dolores.chambers@example.com</td>
+                      <td class="tableRow">21 Sep, 2020</td>
+                      <td class="tableRow"><span id="textPaid">Paid</span></td>
+                      <td class="tableRow">$11,170</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">267400</td>
+                      <td class="tableRow">Fire Department</td>
+                      <td class="tableRow">nevaeh.simmons@example.com</td>
+                      <td class="tableRow">17 Oct, 2020</td>
+                      <td class="tableRow"><span id="textFail">Paid</span></td>
+                      <td class="tableRow">$28,000</td>
+                    </tr>
+                    <tr>
+                      <td class="tableRow">449003</td>
+                      <td class="tableRow">Insurance Carrier</td>
+                      <td class="tableRow">curtis.weaver@example.com</td>
+                      <td class="tableRow">21 Sep, 2020</td>
+                      <td class="tableRow"><span id="textPaid">Paid</span></td>
+                      <td class="tableRow">$10,000</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</body>
+
+</html>
