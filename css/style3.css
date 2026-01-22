@@ -266,3 +266,10 @@
 .red{
     color: #C8242F;
 }
+
+
+  .dashed-disabled:disabled {
+    border: 2px dashed rgb(93, 93, 93); 
+    background-color: #f8f9fa;  
+    opacity: 1;                  
+  }
